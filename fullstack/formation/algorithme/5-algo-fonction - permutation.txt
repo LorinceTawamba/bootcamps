@@ -1,0 +1,31 @@
+Algorithme FONCTION
+
+permutation (premierNombre, deuxiemeNombre) : void
+  permut int; 
+debut 
+  afficher "Avant traitement";
+  afficher "Le premier entier est " premierNombre;
+  afficher "Le second entier est " deuxiemeNombre;
+
+  permut = premierNombre; 
+  premierNombre = deuxiemeNombre; 
+  deuxiemeNombre = permut;
+  
+  afficher "Apres traitement";
+  afficher "Le premier entier est " premierNombre;
+  afficher "Le second entier est " deuxiemeNombre;
+fin
+
+Variables 
+  nombre int; 
+  compteur int;
+  carre int; 
+Début 
+  afficher "Entre le pemier nombre";
+  lire premierNombre; 
+
+  afficher "Entre le deuxieme nombre";
+  lire deuxiemeNombre;
+
+  permutation (premierNombre, deuxiemeNombre);  
+Fin

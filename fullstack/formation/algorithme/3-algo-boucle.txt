@@ -1,0 +1,14 @@
+Algorithme BOUCLE 
+Variables 
+  nombre int; 
+  compteur int;
+  carre int; 
+Début 
+  afficher "Entre un nombre";
+  lire nombre; 
+
+  POUR compteur DE 1 À nombre incrementer À 1 FAIRE 
+    carre = compteur * compteur; 
+    afficher "Le carre de ", compteur, " est ", carre;
+  Fin 
+Fin

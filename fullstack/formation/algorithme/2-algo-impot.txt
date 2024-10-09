@@ -1,0 +1,27 @@
+Algorithme IMPOT 
+Variables 
+  age int;
+  sexe string; 
+  messagePayer string = "Vous devez payer l'impot";
+  messageNePasPayer string = "Vous ne devez pas payer l'impot"; 
+Début 
+  afficher "Entre votre age";
+  lire age; 
+
+  afficher "Entre votre sexe";
+  lire sexe; 
+
+  si sexe == "homme" alors 
+    si age >= 18 faire
+      afficher messagePayer; 
+    si non 
+      afficher messageNePasPayer; 
+    fin
+  si non si sexe == "femme" alors 
+    si age >= 21 faire
+      afficher messagePayer; 
+    si non 
+      afficher messageNePasPayer; 
+    fin
+  fin 
+Fin

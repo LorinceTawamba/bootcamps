@@ -1,0 +1,20 @@
+Algorithme FONCTION
+
+affichage () : void
+debut
+  afficher "Entre un nombre";
+fin
+
+Variables 
+  nombre int; 
+  compteur int;
+  carre int; 
+Début 
+  affichage ();
+  lire nombre; 
+
+  POUR compteur DE 1 À nombre incrementer À 1 FAIRE 
+    carre = compteur * compteur; 
+    afficher "Le carre de ", compteur, " est ", carre;
+  Fin 
+Fin
