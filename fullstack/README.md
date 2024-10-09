@@ -1,20 +1,18 @@
-# Gestion des naissances  
+# Bootcamps 
 
 ## Table de matières 
 
-- [Introduction](#Introduction) 
-- [Gestion de projet](#Gestion-de-projet)
+- [Formation développeur full stack](#Formation-développeur-full-stack) 
+- [Contributeurs](#Contributeurs)
 
-## Introduction 
+## Formation développeur full stack  
 
-Ceci est une application de gestion des naissances dans une mairie. 
-https://tawambatechnologies.ca/gestion-des-naissances 
+Ceci est une ... 
 
-## Gestion de projet 
+### Introduction 
 
-Une des étapes majeur de ce projet est la gestion de projet. Nous avons réalisé la gestion de ce projet en utilisant l'outil collaboratif Trello.  
-https://trello.com/b/ynpuZbAr/gestion-des-naissances  
+Ceci est une ....
 
-## Contributors
+## Contributeurs
 
 - [Lorince Tawamba](https://github.com/LorinceTawamba) 
