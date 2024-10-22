@@ -27,4 +27,31 @@ body {
     transition: background-color 0.01s, 
                 color 0.01s,  
                 all 0.01s;
+} 
+
+.text-titre {
+    color: #7e0505;
+    text-align: center;
+} 
+
+.table-bloc { 
+    background-color: #ffffff;
+    color: #111111;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+} 
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+} 
+
+.table, .table td {
+    border: 1px solid #7e0505;
+    
+} 
+
+.table thead {
+    text-align: center;
 }
