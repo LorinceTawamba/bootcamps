@@ -1,0 +1,10 @@
+* {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+} 
+
+.page {
+    background-color: #C7D0CC; 
+    color: #1e133e;
+    font-size: 50px; 
+}

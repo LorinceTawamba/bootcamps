@@ -28,5 +28,57 @@
             </div>            
         </header>   
         <h1>Page Contact</h1>     
+        <form action="" class="formulaire">
+            <div class="form-group">
+                <label for="civility" class="label">Civilite</label>
+                <div class="radio" aria-labelledby="civility">
+                    <label for="madame" class="label">                         
+                        <input id="madame" type="radio" name="civility" class="input"/>
+                        Madame
+                    </label>
+                    <label for="monsieur" class="label">                         
+                        <input id="monsieur" type="radio" name="civility" class="input"/>
+                        Monsieur
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="lastName" class="label">Votre nom</label>
+                <input id="lastName" type="text" name="lastName" class="input" placeholder="Votre nom"/>
+            </div> 
+            <div class="form-group">
+                <label for="firstName" class="label">Votre prenom</label>
+                <input id="firstName" type="text" name="firstName" class="input" placeholder="Votre prenom"/>
+            </div> 
+            <div class="form-group">
+                <label for="email" class="label">Votre email</label>
+                <input id="email" type="email" name="email" class="input" placeholder="Votre email"/>
+            </div>
+            <div class="form-group">
+                <label for="message" class="label">Votre message</label>
+                <textarea name="message" id="message" rows="4" class="textarea"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="renseignement" class="label">Comment vous nous avez connu ?</label>
+                <select name="renseignement" id="renseignement" class="select">
+                    <option value=""></option>
+                    <optgroup label="Reseaux Sociaux">
+                        <option value="linkedin">LinkedIn</option>
+                        <option value="facebook">Facebook</option>
+                    </optgroup>
+                    <optgroup label="Autres">
+                        <option value="siteweb" selected>Site web</option>
+                        <option value="recommandation">Recommandation</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="form-group"> 
+                <label for="info" class="label">
+                    <input id="info" type="checkbox" name="info" class="input"/> 
+                    Je ne souhaite pas recevoir d'information, de bons plans et de cadeaux
+                </label>
+            </div>
+            <button class="button" type="submit">Transmettre donnees</button>
+        </form>
     </body>
 </html>

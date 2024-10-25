@@ -47,4 +47,51 @@ html, body {
     font-size: 20px;
     color: #ffffff; 
     margin: 10px; 
+} 
+
+.formulaire {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #a63838;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+} 
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+} 
+
+.label {
+    font-size: 20px;
+    color: #fafafa;
+}
+
+.input {
+    font-size: 20px; 
+    border-radius: 5px;
+} 
+
+.button {
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #7453bb;
+} 
+
+.textarea {
+    font-size: 25px;
+    border-radius: 5px;
+} 
+
+.radio {
+    font-size: 25px;
+} 
+
+.select {
+    font-size: 25px;
+    border-radius: 5px;
 }
