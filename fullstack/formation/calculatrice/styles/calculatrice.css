@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+.header {
+
+}
+
+.logo {
+    font-size: 18px; 
+    align-content: center;
+    margin: 5px;
+} 
+
+.logo img {
+    width: 170px;
+    height: 60px;
+    border-radius: 5px 5px 5px 5px; 
+}
